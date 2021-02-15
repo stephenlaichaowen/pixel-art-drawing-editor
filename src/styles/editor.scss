@@ -1,11 +1,7 @@
 @import "properties.scss";
 
 #editor {
-  overflow: hidden;
-  // width: 100%;
-  // border: 1px solid $red;
   border-radius: 0.25rem;
-  padding: 1rem 4rem 2rem 4rem;
   margin-top: 2rem;
 
   display: flex;
@@ -75,8 +71,7 @@
 
 @media (max-width: 360px) {
   #editor {
-    border: 0;
-    padding: 0 4rem;
     margin-top: 0;
+    padding-bottom: 1rem;
   }
 }
