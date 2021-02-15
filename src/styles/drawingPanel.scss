@@ -1,0 +1,15 @@
+#drawingPanel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#pixels {
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 360px) {
+  #pixels {
+    margin-bottom: 0;
+  }  
+}
